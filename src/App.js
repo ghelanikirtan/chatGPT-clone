@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import chatgpt from "./chatgpt.png";
+import "./normal.css";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <aside className="sidemenu">
+        <div className="side-menu-button">
+          <span>+</span>
+          New Chat
+        </div>
+      </aside>
+      <section className="chatbox">
+        <div className="chat-log">
+          <div className="chat-message">
+            <div className="chat-message-center">
+              <div className="avatar"></div>
+              <div className="message">Hello World</div>
+            </div>
+          </div>
+          <div className="chat-message chatgpt">
+            <div className="chat-message-center">
+              <div className="avatar chatgpt">
+                <img src={chatgpt} alt="chatgpt" />
+              </div>
+              <div className="message">I am an AI</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="chat-input-holder">
+          <textarea rows="1" className="chat-input-textarea"></textarea>
+        </div>
+      </section>
     </div>
   );
 }
