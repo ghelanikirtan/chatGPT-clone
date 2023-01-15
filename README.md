@@ -1,7 +1,7 @@
-### ⚠️ Work in Progress ⚠️
+## ⚠️ Work in Progress ⚠️
 
-Checkpoint : [Basic FrontEnd ✅]
 ![Basic Frontend](./FrontEnd_Sample.png)
+Basic FrontEnd ✅
 
 # Getting Started with Create React App
 
