@@ -1,6 +1,6 @@
 ## ⚠️ Work in Progress ⚠️
 
-![Basic Frontend](./FrontEnd_Sample.png)
+![Basic Frontend](./FrontEnd_Sample01.gif)
 Basic FrontEnd ✅
 
 ---
