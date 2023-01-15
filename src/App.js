@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import chatgpt from "./chatgpt.png";
 import "./normal.css";
 import "./App.css";
