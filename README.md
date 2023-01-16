@@ -1,7 +1,7 @@
 ## ⚠️ Work in Progress ⚠️
 
-![Basic Frontend](./FrontEnd_Sample01.gif)
-Basic FrontEnd ✅
+![Sample Video](./FrontEnd_Sample01.gif)
+![More Examples](./FrontEnd_Sample.png)
 
 ---
 
